@@ -1,12 +1,20 @@
 # Open-Discover-WhitePaper-1
-Open Discover Workflow Management System (distributed document processing and extraction)
+Open Discover Workflow Management System Performance in Microsoft Azure
 
-
+Azure Virtual Machine Configuration:
+WMS/RabbitMQ    1 VM 8-core, 128GB  RAM  
+SQL Server      1 VM 32-core, 256GB RAM 
+File Server     1 VM  4-core, 16GB RAM   (4TB SSD)
+Workers         3 VM 32-core, 256GB RAM
 
 
 ![ProcessingSummary](https://github.com/dotfurther/Open-Discover-WhitePaper-1/assets/52750989/4f0a2598-4d28-4e69-8496-1626fba6b0a8)
 
+
+
 ![VMWorkerCpuUsage](https://github.com/dotfurther/Open-Discover-WhitePaper-1/assets/52750989/937c7a74-3178-434d-bd95-2c799df3a5bb)
+
+
 
 
 ### Document Totals by Classification Type:
@@ -413,15 +421,23 @@ Open Discover Workflow Management System (distributed document processing and ex
 | Text_Windows_1254 	| 1 	| 1 	| 0.000 	| 0.000 	| 0 	| 0 	|
 | TextAppointment_Windows_1252 	| 1 	| 1 	| 0.000 	| 0.000 	| 0 	| 0 	|
 | TextUnicode32LE 	| 1 	| 1 	| 0.000 	| 0.000 	| 0 	| 0 	|
+| VectorWorks 	| 1 	| 1 	| 0.001 	| 0.001 	| 0 	| 0 	|
+| WindowsRegistryFile 	| 1 	| 1 	| 0.000 	| 0.000 	| 0 	| 0 	|
+| Word2010TemplateMacro 	| 1 	| 1 	| 0.000 	| 0.000 	| 0 	| 0 	|
+| ArchiveZipEmpty 	| 0 	| 0 	| 0.000 	| 0.000 	| 5 	| 0 	|
+
+
+
+![EntityReport_Overview](https://github.com/dotfurther/Open-Discover-WhitePaper-1/assets/52750989/21845b8b-51f9-461e-8fc3-06b783866005)
+
+
+
+![EntityReport_Filter](https://github.com/dotfurther/Open-Discover-WhitePaper-1/assets/52750989/622be00c-b8fd-422d-8e58-e67491bd5470)
+
+
 
 ![TaskViewDuringProcessingView1](https://github.com/dotfurther/Open-Discover-WhitePaper-1/assets/52750989/fc635062-0cc3-4725-8dee-8dcdd6a742fd)
 
 
 
 
-
-
-| VectorWorks 	| 1 	| 1 	| 0.001 	| 0.001 	| 0 	| 0 	|
-| WindowsRegistryFile 	| 1 	| 1 	| 0.000 	| 0.000 	| 0 	| 0 	|
-| Word2010TemplateMacro 	| 1 	| 1 	| 0.000 	| 0.000 	| 0 	| 0 	|
-| ArchiveZipEmpty 	| 0 	| 0 	| 0.000 	| 0.000 	| 5 	| 0 	|
