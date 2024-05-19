@@ -1,5 +1,4 @@
-# Open-Discover-WhitePaper-1
-Open Discover Workflow Management System Performance in Microsoft Azure
+# Case Study: Open Discover Workflow Management System Performance in Microsoft Azure
 
 Nearly 600 GB/hour processing rate based on collection (matter) end-to-end processing time.
 The end-to-end processing time includes:
