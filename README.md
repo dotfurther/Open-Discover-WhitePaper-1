@@ -4,6 +4,10 @@ Open Discover Workflow Management System (distributed document processing and ex
 
 
 
+![ProcessingSummary](https://github.com/dotfurther/Open-Discover-WhitePaper-1/assets/52750989/4f0a2598-4d28-4e69-8496-1626fba6b0a8)
+
+![VMWorkerCpuUsage](https://github.com/dotfurther/Open-Discover-WhitePaper-1/assets/52750989/937c7a74-3178-434d-bd95-2c799df3a5bb)
+
 
 ### Document Totals by Classification Type:
  
@@ -409,6 +413,14 @@ Open Discover Workflow Management System (distributed document processing and ex
 | Text_Windows_1254 	| 1 	| 1 	| 0.000 	| 0.000 	| 0 	| 0 	|
 | TextAppointment_Windows_1252 	| 1 	| 1 	| 0.000 	| 0.000 	| 0 	| 0 	|
 | TextUnicode32LE 	| 1 	| 1 	| 0.000 	| 0.000 	| 0 	| 0 	|
+
+![TaskViewDuringProcessingView1](https://github.com/dotfurther/Open-Discover-WhitePaper-1/assets/52750989/fc635062-0cc3-4725-8dee-8dcdd6a742fd)
+
+
+
+
+
+
 | VectorWorks 	| 1 	| 1 	| 0.001 	| 0.001 	| 0 	| 0 	|
 | WindowsRegistryFile 	| 1 	| 1 	| 0.000 	| 0.000 	| 0 	| 0 	|
 | Word2010TemplateMacro 	| 1 	| 1 	| 0.000 	| 0.000 	| 0 	| 0 	|
