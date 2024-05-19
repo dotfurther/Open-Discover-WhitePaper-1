@@ -6,6 +6,7 @@ Open Discover Workflow Management System (distributed document processing and ex
 
 
 ## Document Totals by Classification Type:
+%%HTML
 <style scoped>
 table {
   font-size: 12px;
