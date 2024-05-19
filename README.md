@@ -1,18 +1,24 @@
 # Open-Discover-WhitePaper-1
 Open Discover Workflow Management System Performance in Microsoft Azure
 
+Nearly 600 GB/hour processing rate based on collection (matter) end-to-end processing time.
+The end-to-end processing time includes:
+- Container extraction
+- Document text and metadata extraction
+- PII/PHI entity extraction
+- Lucene index creation
+- Load file creation (document and Relativity Dynamic Object (RDO) load files)
+
 Azure Virtual Machine Configuration:
-WMS/RabbitMQ    1 VM 8-core, 128GB  RAM  
-SQL Server      1 VM 32-core, 256GB RAM 
-File Server     1 VM  4-core, 16GB RAM   (4TB SSD)
-Workers         3 VM 32-core, 256GB RAM
+- WMS/RabbitMQ    1 VM 8-core, 128GB  RAM  
+- SQL Server      1 VM 32-core, 256GB RAM 
+- File Server     1 VM  4-core, 16GB RAM   (4TB SSD)
+- Workers         3 VM 48-core, 256GB RAM  (144 virtual cores used by 21 Workers)
+
 
 
 ![ProcessingSummary](https://github.com/dotfurther/Open-Discover-WhitePaper-1/assets/52750989/4f0a2598-4d28-4e69-8496-1626fba6b0a8)
 
-
-
-![VMWorkerCpuUsage](https://github.com/dotfurther/Open-Discover-WhitePaper-1/assets/52750989/937c7a74-3178-434d-bd95-2c799df3a5bb)
 
 
 
@@ -437,6 +443,11 @@ Workers         3 VM 32-core, 256GB RAM
 
 
 ![TaskViewDuringProcessingView1](https://github.com/dotfurther/Open-Discover-WhitePaper-1/assets/52750989/fc635062-0cc3-4725-8dee-8dcdd6a742fd)
+
+
+
+
+![VMWorkerCpuUsage](https://github.com/dotfurther/Open-Discover-WhitePaper-1/assets/52750989/937c7a74-3178-434d-bd95-2c799df3a5bb)
 
 
 
