@@ -6,7 +6,11 @@ Open Discover Workflow Management System (distributed document processing and ex
 
 
 ## Document Totals by Classification Type:
-
+<style scoped>
+table {
+  font-size: 12px;
+}
+</style>
 | ClassificationType 	| TotalDocumentCount 	| TotalOriginalDocumentCount 	| TotalDocumentSizeInBytes 	| TotalOriginalDocumentSizeInBytes 	| TotalNistDocumentCount 	| TotalExcludedDocumentCount 	|
 |---	|---	|---	|---	|---	|---	|---	|
 | RasterImage 	| 2840428 	| 338707 	| 163063986243 	| 68971950802 	| 72734 	| 0 	|
