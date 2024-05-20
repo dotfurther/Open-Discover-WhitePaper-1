@@ -1,10 +1,10 @@
-# Case Study: Open Discover Workflow Management System Performance (WMS) in Microsoft Azure
+# Case Study: Open Discover® Workflow Management System Performance (WMS) in Microsoft Azure
 
 Nearly 600 GB/hour processing rate based on collection (matter) end-to-end processing time.
 The end-to-end processing time includes:
 - Container extraction
-- Document text and metadata extraction
-- PII/PHI entity extraction
+- Document text, metadata, language identification, embedded object/attachment extraction
+- PII/PHI/FERPA entity extraction
 - Lucene index creation
 - Load file creation (document and Relativity Dynamic Object (RDO) load files)
 
@@ -22,7 +22,12 @@ Data Source for this Study:
 ![ProcessingSummary](https://github.com/dotfurther/Open-Discover-WhitePaper-1/assets/52750989/4f0a2598-4d28-4e69-8496-1626fba6b0a8)
 
 
+### Image 2: PII/PHI Entity Extraction Summary Report
+![EntityReport_Overview](https://github.com/dotfurther/Open-Discover-WhitePaper-1/assets/52750989/21845b8b-51f9-461e-8fc3-06b783866005)
 
+
+### Image 3: PII/PHI Entity Filter Report
+![EntityReport_Filter](https://github.com/dotfurther/Open-Discover-WhitePaper-1/assets/52750989/622be00c-b8fd-422d-8e58-e67491bd5470)
 
 
 ### Table 1: Document Totals by Classification Type:
@@ -435,15 +440,10 @@ Data Source for this Study:
 | ArchiveZipEmpty 	| 0 	| 0 	| 0.000 	| 0.000 	| 5 	| 0 	|
 
 
-### Image 2: PII/PHI Entity Extraction Summary Report
-![EntityReport_Overview](https://github.com/dotfurther/Open-Discover-WhitePaper-1/assets/52750989/21845b8b-51f9-461e-8fc3-06b783866005)
 
 
-### Image 3: PII/PHI Entity Filter Report
-![EntityReport_Filter](https://github.com/dotfurther/Open-Discover-WhitePaper-1/assets/52750989/622be00c-b8fd-422d-8e58-e67491bd5470)
 
-
-### Image 4: Screen Shot of Collection Workflow Tasks
+### Image 4: Screen Shot of Collection (Matter) Workflow Tasks
 ![TaskViewDuringProcessingView1](https://github.com/dotfurther/Open-Discover-WhitePaper-1/assets/52750989/fc635062-0cc3-4725-8dee-8dcdd6a742fd)
 
 
