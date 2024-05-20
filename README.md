@@ -435,20 +435,19 @@ Data Source for this Study:
 | ArchiveZipEmpty 	| 0 	| 0 	| 0.000 	| 0.000 	| 5 	| 0 	|
 
 
-
+### Image 2: PII/PHI Entity Extraction Summary Report
 ![EntityReport_Overview](https://github.com/dotfurther/Open-Discover-WhitePaper-1/assets/52750989/21845b8b-51f9-461e-8fc3-06b783866005)
 
 
-
+### Image 3: PII/PHI Entity Filter Report
 ![EntityReport_Filter](https://github.com/dotfurther/Open-Discover-WhitePaper-1/assets/52750989/622be00c-b8fd-422d-8e58-e67491bd5470)
 
 
-
+### Image 4: Screen Shot of Collection Workflow Tasks
 ![TaskViewDuringProcessingView1](https://github.com/dotfurther/Open-Discover-WhitePaper-1/assets/52750989/fc635062-0cc3-4725-8dee-8dcdd6a742fd)
 
 
-
-
+### Image 5: Workers Make Efficient Usage of VM Resources
 ![VMWorkerCpuUsage](https://github.com/dotfurther/Open-Discover-WhitePaper-1/assets/52750989/937c7a74-3178-434d-bd95-2c799df3a5bb)
 
 
