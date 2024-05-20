@@ -1,4 +1,4 @@
-# Case Study: Open Discover Workflow Management System Performance in Microsoft Azure
+# Case Study: Open Discover Workflow Management System Performance (WMS) in Microsoft Azure
 
 Nearly 600 GB/hour processing rate based on collection (matter) end-to-end processing time.
 The end-to-end processing time includes:
@@ -9,20 +9,23 @@ The end-to-end processing time includes:
 - Load file creation (document and Relativity Dynamic Object (RDO) load files)
 
 Azure Virtual Machine Configuration:
-- WMS/RabbitMQ    1 VM 8-core, 128GB  RAM  
-- SQL Server      1 VM 32-core, 256GB RAM 
-- File Server     1 VM  4-core, 16GB RAM   (4TB SSD)
-- Workers         3 VM 48-core, 256GB RAM  (144 virtual cores used by 21 Workers)
+| Hosted Software 	| Number of VMs | VM Configuration| 	
+|---	|---	|---	|
+|Wokflow Management System/RabbitMQ    |1 |8-core, 128GB  RAM  |
+|SQL Server      |1 |32-core, 256GB RAM  |
+|Workers         |3 |48-core, 256GB RAM  (144 virtual cores used by 21 Workers) |
 
+Data Source for this Study:
+- 1.65 TB of client data
 
-
+### Image 1: Processing Summary
 ![ProcessingSummary](https://github.com/dotfurther/Open-Discover-WhitePaper-1/assets/52750989/4f0a2598-4d28-4e69-8496-1626fba6b0a8)
 
 
 
 
 
-### Document Totals by Classification Type:
+### Table 1: Document Totals by Classification Type:
  
 | ClassificationType 	| DocumentCount 	| OriginalDocumentCount 	| DocumentSize [GB] 	| OriginalDocumentSize [GB] 	| NIST Count 	| Excluded Count 	|
 |---	|---	|---	|---	|---	|---	|---	|
@@ -55,7 +58,7 @@ Azure Virtual Machine Configuration:
 | ProjectManagement 	| 14 	| 10 	| 0.01 	| 0.01 	| 0 	| 0 	|
 | CadCamAnd3dModel 	| 4 	| 4 	| 0.00 	| 0.00 	| 0 	| 0 	|
 
-### Document Totals by File Type:
+### Table 2: Document Totals by File Type:
   
 | FileType 	| DocumentCount 	| OriginalDocumentCount 	| DocumentSize [GB] 	| OriginalDocumentSize  [GB] 	| NIST Count 	| Excluded Count 	|
 |---	|---	|---	|---	|---	|---	|---	|
