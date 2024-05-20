@@ -9,7 +9,7 @@ The end-to-end processing time includes:
 - Load file creation (document and Relativity Dynamic Object (RDO) load files)
 
 Azure Virtual Machine Configuration:
-| Hosted Software 	| Number of VMs | VM Configuration| 	
+| Hosted Software 	| VM Count | VM Configuration| 	
 |---	|---	|---	|
 |Wokflow Management System/RabbitMQ    |1 |8-core, 128GB  RAM  |
 |SQL Server      |1 |32-core, 256GB RAM  |
