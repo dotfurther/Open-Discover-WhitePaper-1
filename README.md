@@ -24,7 +24,6 @@ Processed Collection (Matter) Source for this Study:
 
 ### Image 1: Processing Summary
 Screen shot of the collection's post-processing report. An 'original' document is the document chosen to be the representing document from a duplicate set of documents.
-
 ![ProcessingSummary](https://github.com/dotfurther/Open-Discover-WhitePaper-1/assets/52750989/4f0a2598-4d28-4e69-8496-1626fba6b0a8)
 
 
