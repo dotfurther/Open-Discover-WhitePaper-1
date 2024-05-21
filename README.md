@@ -66,7 +66,7 @@ is the number (non-duplicated) person names found in a document.
 | SourceCode 	| 18,697 	| 9,836 	| 3.37 	| 2.54 	| 43 	| 0 	|
 | DataFile 	| 13,847 	| 10,222 	| 0.13 	| 0.01 	| 75 	| 0 	|
 | Fonts 	| 4,402 	| 130 	| 1.32 	| 1.26 	| 45 	| 0 	|
-| Executable 	| 3,970 	| 3,824 	| 2.51 	| 2.36 	| 59 	| 3,949 	|
+| Executable 	| 3,970 	| 3,824 	| 2.51 	| 2.36 	| 59 	| 3,970 	|
 | Database 	| 458 	| 329 	| 1.39 	| 1.39 	| 0 	| 0 	|
 | NotesAndResearch 	| 360 	| 360 	| 0.04 	| 0.04 	| 0 	| 0 	|
 | SecurityAndEncryption 	| 183 	| 162 	| 730.99 	| 524.26 	| 4 	| 0 	|
