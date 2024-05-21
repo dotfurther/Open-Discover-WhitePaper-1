@@ -5,8 +5,10 @@ The end-to-end processing time includes:
 - Container extraction
 - Document text, metadata, language identification, embedded object/attachment extraction
 - PII/PHI/FERPA entity extraction
+- De-Nist of all documents
+- Deduplication of all documents
 - Lucene index creation
-- Load file creation (document and Relativity Dynamic Object (RDO) load files)
+- Load file creation (document and entity Relativity Dynamic Object (RDO) load files)
 
 Azure Virtual Machine Configuration:
 | Hosted Software 	| VM Count | VM Configuration| 	
@@ -15,24 +17,37 @@ Azure Virtual Machine Configuration:
 |SQL Server      |1 |32-core, 256GB RAM  |
 |Workers         |3 |48-core, 256GB RAM  (144 virtual cores used by 21 Workers) |
 
-Data Source for this Study:
-- 1.65 TB of client data
+Processed Collection (Matter) Source for this Study:
+- 1.65 TB of client data (see Table 1 for a summary of processed documents by their Open Discover classification type).
+- Over 3 TB's expanded size after processing all containers, attachments, and embedded documents (see Image 1)
 
 ### Image 1: Processing Summary
+Screen shot of the collection's post-processing report. An 'original' document is the document chosen to be the representing document from a duplicate set of documents.
+
 ![ProcessingSummary](https://github.com/dotfurther/Open-Discover-WhitePaper-1/assets/52750989/4f0a2598-4d28-4e69-8496-1626fba6b0a8)
 
 
-### Image 2: PII/PHI Entity Extraction Summary Report
+### Image 2: PII/PHI/FERPA Entity Extraction Summary Report
+Screen shot of the collection's post-processing entity extraction report.
+
 ![EntityReport_Overview](https://github.com/dotfurther/Open-Discover-WhitePaper-1/assets/52750989/21845b8b-51f9-461e-8fc3-06b783866005)
 
 
-### Image 3: PII/PHI Entity Filter Report
+### Image 3: PII/PHI/FERPA Entity Filter Report
+Screen shot of the collection's post-processing entity filter report. The user can select a subset of PII/PHI/FERPA entities
+to hit search for in all 'original' documents. The 'Person Count' is always returned as part of the report and
+is the number (non-duplicated) person names found in a document.
+
 ![EntityReport_Filter](https://github.com/dotfurther/Open-Discover-WhitePaper-1/assets/52750989/622be00c-b8fd-422d-8e58-e67491bd5470)
 
 
-### Table 1: Document Totals by Classification Type
- 
-| ClassificationType | Document Count | Original Document Count | Document Size GB | Original Document Size GB | NIST Count | Excluded Count |
+### Table 1: Summary Report of Collection Document Totals by Classification Type
+- 'Classification Type' is the type of a document's file format. 
+- 'Document Count' is the total number of documents that are not NIST or Excluded (includes duplicates)
+- 'Original Document Count' is de-deduplicated count of 'Document Count'
+- All document size columns are in giga-bytes (GB)
+  
+| Classification Type | Document Count | Original Document Count | Document Size GB | Original Document Size GB | NIST Count | Excluded Count |
 |---	|---	|---	|---	|---	|---	|--- |
 | RasterImage 	| 2,840,428 	| 338,707 	| 576.26 	| 439.71 	| 72,734 	| 0 	|
 | Email 	| 2,638,860 	| 2,230,614 	| 814.01 	| 614.67 	| 0 	| 0 	|
@@ -63,9 +78,13 @@ Data Source for this Study:
 | ProjectManagement 	| 14 	| 10 	| 0.01 	| 0.01 	| 0 	| 0 	|
 | CadCamAnd3dModel 	| 4 	| 4 	| 0.00 	| 0.00 	| 0 	| 0 	|
 
-### Table 2: Document Totals by File Type
+### Table 2: Collection Document Totals by File Type
+- 'FileType' column contains the identified file (document) format type.
+- 'Document Count' is the total number of documents that are not NIST or Excluded (includes duplicates)
+- 'Original Document Count' is de-deduplicated count of 'Document Count'
+- All document size columns are in giga-bytes (GB)
   
-| FileType 	| Document Count 	| Original Document Count 	| Document Size GB 	| Original Document Size  GB 	| NIST Count 	| Excluded Count 	|
+| FileType 	| Document Count 	| Original Document Count 	| Document Size GB 	| Original Document Size GB 	| NIST Count 	| Excluded Count 	|
 |---	|---	|---	|---	|---	|---	|---	|
 | OutlookMessage 	| 2,523,430 	| 2,115,866 	| 566.593 	| 430.097 	| 0 	| 0 	|
 | JpegJFIF 	| 1,752,585 	| 97,874 	| 39.732 	| 10.966 	| 11,989 	| 0 	|
@@ -441,13 +460,15 @@ Data Source for this Study:
 
 
 
-
-
 ### Image 4: Screen Shot of Collection (Matter) Workflow Tasks
+WMS breaks collection input documents and containers into manageable tasks for the distributed workers. The screen shot below was captured while processing this collection and is the collection's user interface 'Tasks' view.
+
 ![TaskViewDuringProcessingView1](https://github.com/dotfurther/Open-Discover-WhitePaper-1/assets/52750989/fc635062-0cc3-4725-8dee-8dcdd6a742fd)
 
 
 ### Image 5: Workers Make Efficient Usage of VM Resources
+While processing this collection we observed that the Worker VMs were making very good use of the allocated resources.
+
 ![VMWorkerCpuUsage](https://github.com/dotfurther/Open-Discover-WhitePaper-1/assets/52750989/937c7a74-3178-434d-bd95-2c799df3a5bb)
 
 
