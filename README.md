@@ -32,7 +32,7 @@ Data Source for this Study:
 
 ### Table 1: Document Totals by Classification Type:
  
-| ClassificationType 	| DocumentCount 	| OriginalDocumentCount 	| DocumentSize [GB] 	| OriginalDocumentSize [GB] 	| NIST Count 	| Excluded Count 	|
+| Classification Type 	| Document Count 	| Original Document Count 	| Document Size [GB] 	| Original Document Size [GB] 	| NIST Count 	| Excluded Count 	|
 |---	|---	|---	|---	|---	|---	|---	|
 | RasterImage 	| 2,840,428 	| 338,707 	| 576.26 	| 439.71 	| 72,734 	| 0 	|
 | Email 	| 2,638,860 	| 2,230,614 	| 814.01 	| 614.67 	| 0 	| 0 	|
