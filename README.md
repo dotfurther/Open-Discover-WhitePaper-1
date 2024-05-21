@@ -30,10 +30,10 @@ Data Source for this Study:
 ![EntityReport_Filter](https://github.com/dotfurther/Open-Discover-WhitePaper-1/assets/52750989/622be00c-b8fd-422d-8e58-e67491bd5470)
 
 
-### Table 1: Document Totals by Classification Type:
+### Table 1: Document Totals by Classification Type
  
-| Classification Type 	| Document Count 	| Original Document Count 	| Document Size [GB] 	| Original Document Size [GB] 	| NIST Count 	| Excluded Count 	|
-|---	|---	|---	|---	|---	|---	|---	|
+| ClassificationType | Document Count | Original Document Count | Document Size GB | Original Document Size GB | NIST Count | Excluded Count |
+|---	|---	|---	|---	|---	|---	|--- |
 | RasterImage 	| 2,840,428 	| 338,707 	| 576.26 	| 439.71 	| 72,734 	| 0 	|
 | Email 	| 2,638,860 	| 2,230,614 	| 814.01 	| 614.67 	| 0 	| 0 	|
 | DocumentExchange 	| 1,002,315 	| 710,790 	| 220.24 	| 98.87 	| 8 	| 0 	|
@@ -63,9 +63,9 @@ Data Source for this Study:
 | ProjectManagement 	| 14 	| 10 	| 0.01 	| 0.01 	| 0 	| 0 	|
 | CadCamAnd3dModel 	| 4 	| 4 	| 0.00 	| 0.00 	| 0 	| 0 	|
 
-### Table 2: Document Totals by File Type:
+### Table 2: Document Totals by File Type
   
-| FileType 	| DocumentCount 	| OriginalDocumentCount 	| DocumentSize [GB] 	| OriginalDocumentSize  [GB] 	| NIST Count 	| Excluded Count 	|
+| FileType 	| Document Count 	| Original Document Count 	| Document Size GB 	| Original Document Size  GB 	| NIST Count 	| Excluded Count 	|
 |---	|---	|---	|---	|---	|---	|---	|
 | OutlookMessage 	| 2,523,430 	| 2,115,866 	| 566.593 	| 430.097 	| 0 	| 0 	|
 | JpegJFIF 	| 1,752,585 	| 97,874 	| 39.732 	| 10.966 	| 11,989 	| 0 	|
