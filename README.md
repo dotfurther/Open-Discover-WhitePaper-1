@@ -13,7 +13,7 @@ The end-to-end processing time includes:
 Azure Virtual Machine Configuration:
 | Hosted Software 	| VM Count | VM Configuration| 	
 |---	|---	|---	|
-|Wokflow Management System/RabbitMQ    |1 |8-core, 128GB  RAM  |
+|Workflow Management System/RabbitMQ    |1 |8-core, 128GB  RAM  |
 |SQL Server      |1 |32-core, 256GB RAM  |
 |Workers         |3 |48-core, 256GB RAM  (144 virtual cores used by 21 Workers) |
 
