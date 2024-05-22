@@ -70,8 +70,8 @@ is the number (non-duplicated) person names found in a document.
 | Executable 	| 3,970 	| 3,824 	| 2.51 	| 2.36 	| 59 	| 3,970 	|
 | Database 	| 458 	| 329 	| 1.39 	| 1.39 	| 0 	| 0 	|
 | NotesAndResearch 	| 360 	| 360 	| 0.04 	| 0.04 	| 0 	| 0 	|
-| SecurityAndEncryption 	| 183 	| 162 	| 730.99 	| 524.26 	| 4 	| 0 	|
-| MailStore 	| 149 	| 81 	| 2.94 	| 1.50 	| 0 	| 0 	|
+| MailStore  	| 183 	| 162 	| 730.99 	| 524.26 	| 4 	| 0 	|
+| SecurityAndEncryption 	| 149 	| 81 	| 2.94 	| 1.50 	| 0 	| 0 	|
 | Financial 	| 76 	| 39 	| 0.04 	| 0.03 	| 0 	| 0 	|
 | DesktopPublishing 	| 51 	| 31 	| 0.00 	| 0.00 	| 0 	| 0 	|
 | Telecommunication 	| 37 	| 34 	| 0.15 	| 0.15 	| 0 	| 0 	|
