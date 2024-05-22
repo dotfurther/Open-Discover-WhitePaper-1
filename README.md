@@ -50,34 +50,34 @@ is the number (non-duplicated) person names found in a document.
   
 | Classification Type | Document Count | Original Document Count | Document Size GB | Original Document Size GB | NIST Count | Excluded Count |
 |---	|---	|---	|---	|---	|---	|--- |
-| RasterImage 	| 2,840,428 	| 338,707 	| 576.26 	| 439.71 	| 72,734 	| 0 	|
-| Email 	| 2,638,860 	| 2,230,614 	| 814.01 	| 614.67 	| 0 	| 0 	|
-| DocumentExchange 	| 1,002,315 	| 710,790 	| 220.24 	| 98.87 	| 8 	| 0 	|
-| Multimedia 	| 880,304 	| 492,967 	| 24.48 	| 18.71 	| 53 	| 0 	|
-| Calendar 	| 279,100 	| 197,533 	| 224.68 	| 125.30 	| 0 	| 0 	|
-| Spreadsheet 	| 205,503 	| 108,928 	| 98.81 	| 7.95 	| 4 	| 0 	|
-| Other 	| 173,521 	| 47,251 	| 9.30 	| 6.00 	| 41,449 	| 0 	|
-| Markup 	| 129,931 	| 63,576 	| 15.38 	| 7.76 	| 4,284 	| 0 	|
-| WordProcessing 	| 89,421 	| 45,085 	| 13.29 	| 4.85 	| 1,142 	| 0 	|
-| VectorImage 	| 52,474 	| 12,886 	| 410.95 	| 366.21 	| 465 	| 0 	|
-| Archive 	| 24,917 	| 8,343 	| 80.05 	| 28.01 	| 12 	| 31 	|
-| Presentation 	| 24,114 	| 10,153 	| 0.34 	| 0.33 	| 1 	| 0 	|
-| Contacts 	| 22,983 	| 21,989 	| 3.14 	| 2.40 	| 0 	| 0 	|
-| Text 	| 18,963 	| 5,526 	| 2.23 	| 0.86 	| 1,489 	| 0 	|
-| SourceCode 	| 18,697 	| 9,836 	| 3.37 	| 2.54 	| 43 	| 0 	|
-| DataFile 	| 13,847 	| 10,222 	| 0.13 	| 0.01 	| 75 	| 0 	|
-| Fonts 	| 4,402 	| 130 	| 1.32 	| 1.26 	| 45 	| 0 	|
-| Executable 	| 3,970 	| 3,824 	| 2.51 	| 2.36 	| 59 	| 3,970 	|
-| Database 	| 458 	| 329 	| 1.39 	| 1.39 	| 0 	| 0 	|
-| NotesAndResearch 	| 360 	| 360 	| 0.04 	| 0.04 	| 0 	| 0 	|
-| MailStore  	| 183 	| 162 	| 730.99 	| 524.26 	| 4 	| 0 	|
-| SecurityAndEncryption 	| 149 	| 81 	| 2.94 	| 1.50 	| 0 	| 0 	|
-| Financial 	| 76 	| 39 	| 0.04 	| 0.03 	| 0 	| 0 	|
-| DesktopPublishing 	| 51 	| 31 	| 0.00 	| 0.00 	| 0 	| 0 	|
-| Telecommunication 	| 37 	| 34 	| 0.15 	| 0.15 	| 0 	| 0 	|
-| MediaImage 	| 24 	| 24 	| 0.01 	| 0.00 	| 0 	| 0 	|
-| ProjectManagement 	| 14 	| 10 	| 0.01 	| 0.01 	| 0 	| 0 	|
-| CadCamAnd3dModel 	| 4 	| 4 	| 0.00 	| 0.00 	| 0 	| 0 	|
+| RasterImage 	| 2,840,428 	| 338,707 	| 151.87 	| 64.24 	| 72,734 	| 0 	|
+| Email 	| 2,638,860 	| 2,230,614 	| 576.26 	| 439.71 	| 0 	| 0 	|
+| DocumentExchange 	| 1,002,315 	| 710,790 	| 814.01 	| 614.67 	| 8 	| 0 	|
+| Multimedia 	| 880,304 	| 492,967 	| 220.24 	| 98.87 	| 53 	| 0 	|
+| Calendar 	| 279,100 	| 197,533 	| 24.48	| 18.71 	| 0 	| 0 	|
+| Spreadsheet 	| 205,503 	| 108,928 	| 224.68 	| 125.30 	| 4 	| 0 	|
+| Other 	| 173,521 	| 47,251 	| 98.81 	| 7.95 	| 41,449 	| 0 	|
+| Markup 	| 129,931 	| 63,576 	| 9.30 	| 6.00 	| 4,284 	| 0 	|
+| WordProcessing 	| 89,421 	| 45,085 	| 15.38 	|7.76 	| 1,142 	| 0 	|
+| VectorImage 	| 52,474 	| 12,886 	| 13.29 	| 4.85 	| 465 	| 0 	|
+| Archive 	| 24,917 	| 8,343 	| 410.95	| 366.21 	| 12 	| 31 	|
+| Presentation 	| 24,114 	| 10,153 	| 80.05 	|28.01 	| 1 	| 0 	|
+| Contacts 	| 22,983 	| 21,989 	|0.34 	| 0.33 	| 0 	| 0 	|
+| Text 	| 18,963 	| 5,526 	| 3.14 	| 2.40 	| 1,489 	| 0 	|
+| SourceCode 	| 18,697 	| 9,836 	| 2.23 	| 0.86 	| 43 	| 0 	|
+| DataFile 	| 13,847 	| 10,222 	| 3.37 	| 2.54	| 75 	| 0 	|
+| Fonts 	| 4,402 	| 130 	| 0.13 	| 0.01 	| 45 	| 0 	|
+| Executable 	| 3,970 	| 3,824 	| 1.32 	| 1.26 	| 59 	| 3,970 	|
+| Database 	| 458 	| 329 	| 2.51 	| 2.36 	| 0 	| 0 	|
+| NotesAndResearch 	| 360 	| 360 	|1.39 	| 1.39 	| 0 	| 0 	|
+| SecurityAndEncryption 	| 183 	| 162 	| 0.04 	| 0.04 	| 4 	| 0 	|
+| MailStore  	| 149 	| 81 	| 730.99 	| 524.26 	| 0 	| 0 	|
+| Financial 	| 76 	| 39 	| 2.94 	| 1.50 	| 0 	| 0 	|
+| DesktopPublishing 	| 51 	| 31 	| 0.04 	| 0.03 	| 0 	| 0 	|
+| Telecommunication 	| 37 	| 34 	| 0.00 	| 0.00 	| 0 	| 0 	|
+| MediaImage 	| 24 	| 24 	| 0.15 	| 0.15 	| 0 	| 0 	|
+| ProjectManagement 	| 14 	| 10 	| 0.01 	| 0.00 	| 0 	| 0 	|
+| CadCamAnd3dModel 	| 4 	| 4 	| 0.01 	| 0.01 	| 0 	| 0 	|
 
 ### Table 2: Collection Document Totals by File Type
 - 'FileType' column contains the identified file (document) format type.
