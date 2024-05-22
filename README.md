@@ -15,7 +15,7 @@ Azure Virtual Machine Configuration:
 |---	|---	|---	|
 |Workflow Management System/RabbitMQ    |1 |8-core, 128GB  RAM  |
 |SQL Server      |1 |32-core, 256GB RAM  |
-|Workers         |3 |48-core, 256GB RAM  (144 virtual cores used by 21 Workers) |
+|Workers         |3 |48-core, 256GB RAM  (144 virtual cores used by 21 WMS distributed Workers in total) |
 
 Processed Collection (Matter) Source for this Study:
 - 1.65 TB of client data (see Table 1 for a summary of processed documents by their Open Discover classification type).
