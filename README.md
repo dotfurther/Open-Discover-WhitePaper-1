@@ -40,11 +40,12 @@ The end-to-end processing time includes:**
 
 See Image 1 for a WMS processing summary screen shot.
 
-An 'original' document is the document chosen to be the representing document from a duplicate set of documents.
-A 'container unextractable document' is a document that could not be extracted from a container (e.g., a password protected ZIP archive where no password was provided to extract archive documents).
+- An 'original' document is the document chosen to be the representing document from a duplicate set of documents.
+- A 'container unextractable document' is a document that could not be extracted from a container (e.g., a password protected ZIP archive where no password was provided to extract archive documents).
 
 ### Image 1: Processing Summary
-Screen shot of the collection's post-processing report. An 'original' document is the document chosen to be the representing document from a duplicate set of documents.
+Screen shot of the collection's post-processing report. 
+Note: An 'original' document is the document chosen to be the representing document from a duplicate set of documents.
 
 ![ProcessingSummary](https://github.com/dotfurther/Open-Discover-WhitePaper-1/assets/52750989/4f0a2598-4d28-4e69-8496-1626fba6b0a8)
 
