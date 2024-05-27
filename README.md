@@ -10,17 +10,38 @@ The end-to-end processing time includes:**
 - Lucene index creation
 - Load file creation (document and entity Relativity Dynamic Object (RDO) load files)
 
-Azure Virtual Machine Configuration:
-| Hosted Software 	| VM Count | VM Configuration| 	
-|---	|---	|---	|
-|Workflow Management System/RabbitMQ    |1 |8-core, 128GB  RAM  |
-|SQL Server      |1 |32-core, 256GB RAM  |
-|Workers         |3 |48-core, 256GB RAM  (144 virtual cores used by 21 WMS distributed Workers in total) |
-
-Processed Collection (Matter) Source for this Study:
+### Processed Collection (Matter) for this Study:
 - 1.65 TB of client data (see Table 1 for a summary of processed documents by their Open Discover classification type).
 - Over 3 TB's expanded size after processing all containers, attachments, and embedded documents (see Image 1)
 - Executable and other 'junk' file types were excluded from processing. Excluded file types and NIST documents get an entry in WMS's SQL database but once identified are not processed further, exported, or indexed.
+- OCR was not required for this project. However, dotFurther's WMS has a scalable solution for OCR.
+
+### Azure Virtual Machine Configuration:
+| Hosted Software 	| VM Count | VM Configuration| 	
+|---	|---	|---	|
+|Workflow Management System/RabbitMQ    |1 |8-core, 128 GB  RAM  |
+|SQL Server      |1 |32-core, 256 GB RAM  |
+|Workers         |3 |48-core, 256 GB RAM  (144 virtual cores used by 21 WMS distributed Workers in total) |
+
+### Processing Summary Results:
+|||
+|---	|---	|
+|Collection (Matter) input document and container size:      |1.65 TB |
+|Total expanded document size after processing:              |3.34 TB |
+|Collection (Matter) input document and container count:     |1,711,427 |
+|Total expanded document count after processing:             |8,546,973 |
+|Total original document count:                              |4,319,434 | 
+|Total excluded document count:                              |4,037 | 
+|Total empty (zero-byte) document count:                     |26,371 | 
+|Total container unextractable document count:               |546 | 
+|Total NIST document count:                                  |121,867 |
+|Total elapsed processing time (end-to-end):                 |5.86 hours|
+|Expanded document processing rate:                          |577.8 GB/hour|
+
+See Image 1 for a WMS processing summary screen shot.
+
+An 'original' document is the document chosen to be the representing document from a duplicate set of documents.
+A 'container unextractable document' is a document that could not be extracted from a container (e.g., a password protected ZIP archive where no password was provided to extract archive documents).
 
 ### Image 1: Processing Summary
 Screen shot of the collection's post-processing report. An 'original' document is the document chosen to be the representing document from a duplicate set of documents.
