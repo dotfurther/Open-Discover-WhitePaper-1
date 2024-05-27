@@ -1,4 +1,4 @@
-# Case Study #1: Open Discover® Workflow Management System's Document Processing Performance (WMS) in Microsoft Azure
+# Case Study #1: Open Discover® Workflow Management System's (WMS) Document Processing Performance in Microsoft Azure
 
 **Nearly 600 GB/hour processing rate based on collection (matter) end-to-end processing time.
 The end-to-end processing time includes:**
