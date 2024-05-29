@@ -69,7 +69,7 @@ is the number (non-duplicated) person names found in a document.
 
 ### Table 1: Summary Report of Collection Document Totals by Classification Type
 - 'Classification Type' is the type of a document's file format. 
-- 'Document Count' is the total number of documents that are not NIST or Excluded (includes duplicates)
+- 'Document Count' is the total number of documents per the classification type (includes all document records).
 - 'Original Document Count' is de-deduplicated count of 'Document Count'
 - All document size columns are in giga-bytes (GB)
   
@@ -106,7 +106,7 @@ is the number (non-duplicated) person names found in a document.
 
 ### Table 2: Collection Document Totals by File Type
 - 'FileType' column contains the identified file (document) format type.
-- 'Document Count' is the total number of documents that are not NIST or Excluded (includes duplicates)
+- 'Document Count' is the total number of documents per the file format type (includes all document records).
 - 'Original Document Count' is de-deduplicated count of 'Document Count'
 - All document size columns are in giga-bytes (GB)
   
