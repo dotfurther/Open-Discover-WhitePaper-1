@@ -43,7 +43,8 @@ See Image 1 for a WMS processing summary screen shot.
 - An 'original' document is the document chosen to be the representing document from a duplicate set of documents.
 - A 'container unextractable document' is a document that could not be extracted from a container (e.g., a password protected ZIP archive where no password was provided to extract archive documents).
 
-Observation: WMS tasks that update the SQL database storage did not rate-limit (bottleneck) processing at all. We believe we could double the amount of workers (worker VMs) to achieve 
+Observation: 
+WMS tasks that update the SQL database storage did not rate-limit (bottleneck) processing at all. We believe we could double the amount of workers (worker VMs) to achieve 
 greater than 1 TB / hour end-to-end processing rate.
 
 ### Image 1: Processing Summary
