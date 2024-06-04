@@ -12,7 +12,7 @@ The end-to-end processing time includes:**
 
 ### Processed Collection (Matter) for this Study:
 - 1.65 TB of client data (see Table 1 for a summary of processed documents by their Open Discover classification type).
-- Over 3 TB's expanded size after processing all containers, attachments, and embedded documents (see Image 1)
+- Over 3.3 TB's expanded size after processing all containers, attachments, and embedded documents (see Image 1)
 - Executable and other 'junk' file types were excluded from processing. Excluded file types and NIST documents get an entry in WMS's SQL database but once identified are not processed further, exported, or indexed.
 - OCR was not required for this project. However, dotFurther's WMS has a scalable solution for OCR.
 
