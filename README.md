@@ -72,7 +72,7 @@ is the number (non-duplicated) person names found in a document.
 
 
 ### Table 1: Summary Report of Collection Document Totals by Classification Type
-- 'Classification Type' is the type of a document's file format. 
+- '[Classification Type](https://dotfurther.github.io/OpenDiscoverSDK/html/2caef568-f7bd-69fc-89c4-aa0d3e2c497b.htm)' is the type of a document's file format. 
 - 'Document Count' is the total number of documents per the classification type (includes all document records).
 - 'Original Document Count' is de-deduplicated count of 'Document Count'
 - All document size columns are in giga-bytes (GB)
@@ -109,7 +109,7 @@ is the number (non-duplicated) person names found in a document.
 | CadCamAnd3dModel 	| 4 	| 4 	| 0.01 	| 0.01 	| 0 	| 0 	|
 
 ### Table 2: Collection Document Totals by File Type
-- 'FileType' column contains the identified file (document) format type.
+- 'FileType' column contains the [identified file (document) format type](https://dotfurther.github.io/OpenDiscoverSDK/html/6f1047fb-7367-c09c-5621-ae7632c8404b.htm).
 - 'Document Count' is the total number of documents per the file format type (includes all document records).
 - 'Original Document Count' is de-deduplicated count of 'Document Count'
 - All document size columns are in giga-bytes (GB)
