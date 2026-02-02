@@ -3,11 +3,12 @@
 **Nearly 600 GB/hour processing rate based on collection (matter) end-to-end processing time.
 The end-to-end processing time includes:**
 - Container extraction
-- Document text, metadata, language identification, embedded object/attachment extraction
-- [PII/PHI/FERPA entity extraction](https://dotfurther.github.io/OpenDiscoverSDK/html/2caef568-f7bd-69fc-89c4-aa0d3e2c497b.htm)
+- Deep Content Extraction:
+  - Document text, metadata, language identification, embedded object/attachment extraction
+  - [PII/PHI/FERPA entity extraction](https://dotfurther.github.io/OpenDiscoverSDK/html/2caef568-f7bd-69fc-89c4-aa0d3e2c497b.htm)
 - De-Nist of all documents
 - Deduplication of all documents
-- Lucene index creation
+- Full-text search index creation
 - Load file creation (document and entity Relativity Dynamic Object (RDO) load files)
 
 ### Processed Collection (Matter) for this Study:
