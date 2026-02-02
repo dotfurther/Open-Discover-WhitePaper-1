@@ -79,7 +79,7 @@ is the number (non-duplicated) person names found in a document.
 - 'Original Document Size GB' is de-duplicated size of 'Document Size GB'
 - All document 'Size' columns are in giga-bytes (GB)
 - 'NIST Count' are total number of de-NIST-ed documents
-- 'Excluded Count' are count of documents excluded from further processing (e.g., dynamic-link libraries (DLL), executables (EXE), etc). Excluded documents do have records in the database.
+- 'Excluded Count' are count of documents excluded from further processing (e.g., dynamic-link libraries (DLL), executables (EXE), etc). Excluded documents do have records in the database for audit trail.
   
 | Classification Type | Document Count | Original Document Count | Document Size GB | Original Document Size GB | NIST Count | Excluded Count |
 |---	|---	|---	|---	|---	|---	|--- |
@@ -114,9 +114,12 @@ is the number (non-duplicated) person names found in a document.
 
 ### Table 2: Collection Document Totals by File Type
 - 'FileType' column contains the [identified file (document) format type](https://dotfurther.github.io/OpenDiscoverSDK/html/6f1047fb-7367-c09c-5621-ae7632c8404b.htm).
-- 'Document Count' is the total number of documents per the file format type (includes all document records).
+- 'Document Count' is the total number of documents per the classification type (includes all document records).
 - 'Original Document Count' is de-deduplicated count of 'Document Count'
-- All document size columns are in giga-bytes (GB)
+- 'Original Document Size GB' is de-duplicated size of 'Document Size GB'
+- All document 'Size' columns are in giga-bytes (GB)
+- 'NIST Count' are total number of de-NIST-ed documents
+- 'Excluded Count' are count of documents excluded from further processing (e.g., dynamic-link libraries (DLL), executables (EXE), etc). Excluded documents do have records in the database for audit trail.
   
 | FileType 	| Document Count 	| Original Document Count 	| Document Size GB 	| Original Document Size GB 	| NIST Count 	| Excluded Count 	|
 |---	|---	|---	|---	|---	|---	|---	|
