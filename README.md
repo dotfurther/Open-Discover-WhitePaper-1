@@ -1,4 +1,3 @@
-### The Workflow Management System IP is available for non-exclusive source code licensing
 
 # Case Study #1: Open Discover® Workflow Management System's (WMS) Document Processing Performance in Microsoft Azure
 
