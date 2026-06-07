@@ -1,15 +1,15 @@
 Copyright © 2019-2026 dotFurther LLC. All rights reserved.
 
-# Case Study #1: Open Discover® Workflow Management System's (WMS) Document Processing Performance in Microsoft Azure
+# Case Study #1: Open Discover® Workflow Management System's (WMS) Distributed Document/Container Ingestion Performance in Microsoft Azure
 
 **Nearly 600 GB/hour processing rate based on collection (matter) end-to-end processing time.
 The end-to-end processing time includes:**
-- Container extraction
+- Container extraction (archives, split archives, PST, OST, OST2013, etc)
 - Deep Content Extraction:
   - Document text, metadata, language identification, embedded object/attachment extraction
   - [PII/PHI/FERPA entity extraction](https://dotfurther.github.io/OpenDiscoverSDK/html/2caef568-f7bd-69fc-89c4-aa0d3e2c497b.htm)
-- De-Nist of all documents
-- Deduplication of all documents
+- De-Nist of all documents against the full NIST database
+- De-duplication of all documents
 - Full-text search index creation
 - Load file creation (document and entity Relativity Dynamic Object (RDO) load files)
 
